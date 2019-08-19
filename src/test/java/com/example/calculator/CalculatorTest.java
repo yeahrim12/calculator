@@ -50,4 +50,18 @@ public class CalculatorTest {
         int result = calc.divide(10,0);
         assertEquals(0, result);
     }
+
+    @Test
+    public void test_양수뺄셈() {
+        Calculator calc = new Calculator();
+        int result = calc.substract(10,5);
+        assertEquals(5, result);
+    }
+
+    @Test
+    public void test_양수곱셈() {
+        Calculator calc = new Calculator();
+        int result = calc.multiply(10,5);
+        assertEquals(50, result);
+    }
 }
