@@ -54,14 +54,14 @@ public class CalculatorTest {
     @Test
     public void test_양수뺄셈() {
         Calculator calc = new Calculator();
-        int result = calc.substract(10,5);
-        assertEquals(5, result);
+        int result = calc.substract(5,4);
+        assertEquals("두 뺄셈의 차는 1이어야 합니다.",1, result);
     }
 
     @Test
     public void test_양수곱셈() {
         Calculator calc = new Calculator();
-        int result = calc.multiply(10,5);
-        assertEquals(50, result);
+        int result = calc.multiply(5,4);
+        assertEquals("두 곱셈의 값은 20이어야 합니다.",20, result);
     }
 }
