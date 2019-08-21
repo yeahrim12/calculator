@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 
-public class hoyoungTest {
+public class SangTest {
 
     @Test
     public void test_덧셈() {
