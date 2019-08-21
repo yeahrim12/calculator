@@ -64,4 +64,6 @@ public class CalculatorTest {
         int result = calc.multiply(5,4);
         assertEquals("두 곱셈의 값은 20이어야 합니다.",20, result);
     }
+
+
 }
