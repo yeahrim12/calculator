@@ -1,0 +1,15 @@
+#diretories
+/.idea/
+/target/
+
+#file
+*.class
+*.iml
+test.xml
+*.bak
+
+#Ecilpse
+.project
+.metadata
+
+bin/**
